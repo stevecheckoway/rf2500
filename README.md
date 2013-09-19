@@ -2,8 +2,8 @@ rf2500 Kernel Extension
 =======================
 
 This codeless kernel extension can be installed on a Mac OS X system
-to enable tools such as [mspdebug][1] to reprogram an eZ430-RF2500,
-Launchpad, or Chronos device.
+to enable tools such as [mspdebug][1] to reprogram a [TI MSP430
+Launchpad][4].
 
 Unlike other, similar, kernel extensions such as [ez430rf2500][3],
 this extension is actually codeless (it consists of a single file
@@ -26,7 +26,7 @@ This even simpler uninstall script unloads the extension from the
 kernel and deletes it from `/System/Library/Extensions`. There is no
 need to restart your computer after running the uninstall script.
 
-# Getting started with the [TI MSP430 Launchpad][4]
+# Getting started with the TI MSP430 Launchpad
 The easiest way to get started programming the Launchpad is to install
 a toolchain using [MacPorts][2].
 
