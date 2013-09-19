@@ -1,6 +1,6 @@
 MSPCC := msp430-gcc
 MSPDEBUG := mspdebug
-CPU := msp430g2231
+MCU := msp430g2231
 PROGRAMMER := rf2500
 
 prog := led
@@ -10,10 +10,10 @@ objs := led.o
 all: $(prog)
 
 $(prog): $(objs)
-	$(MSPCC) -mmcu=$(CPU) -o $@ $+
+	$(MSPCC) -mmcu=$(MCU) -o $@ $+
 
 %.o: %.c
-	$(MSPCC) -mmcu=$(CPU) -c -o $@ $<
+	$(MSPCC) -mmcu=$(MCU) -c -o $@ $<
 
 clean:
 	$(RM) $(prog) $(objs)
