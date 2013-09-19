@@ -33,7 +33,7 @@ a toolchain using [MacPorts][2].
 1. Download and install [MacPorts][2].
 2. Install the msp430 compiler toolchain, libc, and mspdebug
 
-    sudo port install msp430-gcc msp430-libc mspdebug
+        sudo port install msp430-gcc msp430-libc mspdebug
 
 3. Compile your code using msp430-gcc and download it to the Launchpad
    using mspdebug.
@@ -46,8 +46,8 @@ install, follow these simple steps.
 1. Connect the Launchpad to your computer via the USB cable.
 2. From inside the `sample` directory, run
 
-    make
-    make install
+        make
+        make install
 
 The `Makefile` provides a simple example of how to build a binary for
 a particular MSP430 chip using `msp430-gcc` and how to download the
