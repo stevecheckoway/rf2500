@@ -7,7 +7,7 @@ Launchpad][4].
 
 Unlike other, similar, kernel extensions such as [ez430rf2500][3],
 this extension is actually codeless (it consists of a single file
-`rf2500.kext/Contents/Info.plist`) and as such does not depent on any
+`rf2500.kext/Contents/Info.plist`) and as such does not depend on any
 kernel APIs. In theory, this should make it more portable.
 
 # Installation instructions
